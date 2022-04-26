@@ -1,3 +1,5 @@
+// Tipos de datos
+
 // Tipos primitivos
 
 40   // Numeros 
@@ -17,7 +19,7 @@
 
  /* ================================================================ */ 
  
- // Tipos de objetos o no primitivos
+ // Tipos objetos o no primitivos
 
  [1, 2, 3, 4] // corchetes // arrays
  { nombre: 'Diego' }  // llaves // objetos
