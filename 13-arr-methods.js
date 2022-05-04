@@ -15,8 +15,8 @@ var articulos = [
 //   Metodo Filter  
 /* Válida si es un true o false para poder meterlos al nuevo array, y éste método no modifica el array original */
 
-var articulosFiltrados = articulos.filter(function(articulo){
-    return articulo.costo <= 500  /* Menor o igual a 100 */ 
+var articulosFiltrados = articulos.filter(function(articulo){ //the name of the paramatres is personal, it's relative, that means it can be other. 
+    return articulo.costo <= 500  /* Menor o igual a 500 */ 
 });
 
 console.log(articulosFiltrados);
@@ -66,13 +66,15 @@ console.log(articulosBaratos);
 //   Metodo Reduce
 /* Este método corre una función en cada elemento del array, para comenzar a sumar los costos de cada elemento. */
 
+
+
 var costoTotal = articulos.reduce(function(totalActual, articulo){
     return articulo.costo + totalActual;
 }, 0); // El 0 será la cantidad inicial con la que comenzará el totalActual
 
 console.log(costoTotal); 
 
-//   Metodo Includes
+//   Metodo Includes, validation method, givu true or false. 
 
 var numeros = [1, 2, 3, 4, 5, 6];
 

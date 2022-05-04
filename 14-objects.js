@@ -17,7 +17,7 @@ miAuto.modelo
 miAuto.detallesDelAuto(); 
 
 
-// Función constructora, relación con construcción de clases (remember dalto course, vg, class auto { constructor(marca,modelo,annio)})
+// Función constructora, relación con construcción de clases (remember dalto course, vg, class auto { constructor(marca,modelo,annio){}})
 
 function auto(marca, modelo, annio) {  // Creas una función con los parametros que va a recibir, 
     this.marca = marca;   // Utilizamos el "this" para asignar valores a las propiedades del objeto 
