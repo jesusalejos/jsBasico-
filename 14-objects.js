@@ -7,7 +7,7 @@ var miAuto = {
     modelo: "Corolla",
     annio: 2020,
     detallesDelAuto: function() {   // Metodo de un objeto (una función dentro de un objeto)
-      return `Auto ${this.modelo} ${this.annio}`;
+      return `Auto ${this.modelo} ${this.annio}`; //Aquí this hace referencia al objeto-padre (mi auto) remeber this contextual. 
   }
 };
 
@@ -17,7 +17,7 @@ miAuto.modelo
 miAuto.detallesDelAuto(); 
 
 
-// Función constructora 
+// Función constructora, relación con construcción de clases (remember dalto course, vg, class auto { constructor(marca,modelo,annio)})
 
 function auto(marca, modelo, annio) {  // Creas una función con los parametros que va a recibir, 
     this.marca = marca;   // Utilizamos el "this" para asignar valores a las propiedades del objeto 
