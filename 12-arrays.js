@@ -22,7 +22,7 @@ console.log(frutas[0]);   // Los arrays iician en "0"
 
 // .pop();
 
- var utlimo = frutas.pop("Uvas"); // Eliminará "Uvas" del final 
+ var utlimo = frutas.pop("Uvas"); // Eliminará "Uvas" del final. En realidad no es necesario poner "uvas"ya que pop siempre elimina el último elemento. 
  console.log(frutas);
 
 // unshift()
@@ -32,7 +32,7 @@ console.log(frutas);
 
 // shift()
 
-var borrarFruta = frutas.shift("Manzana"); // Elimina "Manzana" del inico
+var borrarFruta = frutas.shift("Manzana"); // Elimina "Manzana" del inico. n realidad no es necesario poner "manzana"ya que shift siempre elimina el primer elemento. 
 console.log(frutas);
 
 // .indexOf();
